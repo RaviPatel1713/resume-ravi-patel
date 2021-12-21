@@ -1,0 +1,51 @@
+\documentclass[letter,10pt]{article}
+\usepackage[utf8]{inputenc}
+
+%====================
+% File:         resume.tex
+% Editor:       https://github.com/TimmyChan 
+%               https://www.linkedin.com/in/timmy-l-chan/
+% Last Updated: Nov 19, 2021
+% Notes:        All formatting is done in TLCresume.sty
+%               No need to touch that file. 
+%               All actual content is in the sections/ folder.
+%====================
+
+\usepackage{TLCresume}
+
+%====================
+% CONTACT INFORMATION
+%====================
+\author{Ravi Patel} % Name Here
+\def\phone{(331)308-3908}
+\def\city{Hoffman Estates, Illinois}
+\def\email{rp001713@gmail.com}
+\def\LinkedIn{https://tinyurl.com/yc6nw2dr} % linkedin.com/in/______
+\def\github{RaviPatel1713} % github username
+\def\role{Software Engineer} % JOB TITLE
+
+\begin{document}
+\import{sections/}{_header}
+\import{sections/}{objective}
+
+\section{Skills}
+\import{sections/}{skills}
+
+\section{Technical Experience}
+\import{sections/}{experience}
+
+\section{Technical Projects}
+\import{sections/}{technical_projects}
+
+
+\section{Education}
+\import{sections/}{education}
+
+% make a newpage wherever it is a clean break
+% \newpage
+
+\section{Honors and Achievement }
+\import{sections/}{activities}
+
+
+\end{document}
